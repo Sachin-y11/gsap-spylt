@@ -1,16 +1,83 @@
-# React + Vite
+# SPYLT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, animated marketing landing page built with React, Vite, GSAP, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a single-page brand experience for a product-focused landing page. It includes:
 
-## React Compiler
+- a smooth-scrolling hero experience
+- animated section reveals using GSAP
+- responsive navigation and layout
+- flavour, nutrition, benefit, testimonial, and footer sections
+- a polished modern visual style suitable for product marketing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- GSAP
+- Tailwind CSS
+- ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the local URL shown in the terminal, typically:
+
+   ```bash
+   http://localhost:5173
+   ```
+
+## Available Scripts
+
+```bash
+npm run dev
+```
+
+Runs the Vite dev server with hot reloading.
+
+```bash
+npm run build
+```
+
+Builds the production bundle for deployment.
+
+```bash
+npm run preview
+```
+
+Serves the production build locally for preview.
+
+```bash
+npm run lint
+```
+
+Runs ESLint checks on the project.
+
+## Project Structure
+
+```bash
+src/
+  App.jsx
+  main.jsx
+  index.css
+  components/
+  constants/
+  sections/
+```
+
+## Notes
+
+The app uses GSAP ScrollTrigger and ScrollSmoother to create smooth motion and reveal effects. The project is structured as a modular landing-page layout with reusable section components.
